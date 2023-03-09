@@ -1,0 +1,12 @@
+---
+title: "Untitled"
+author: "jithendra sadu"
+date: "2023-03-09"
+output: word_document
+---
+```{r}
+library(tidyverse)
+library(dplyr)
+diamonds%>%
+  select(price, color, x)
+```
